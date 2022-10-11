@@ -81,11 +81,12 @@ variable "database_snapshot_identifier" {
   default = "mysql57db-snapshot"
 }
 
+/*
 variable "database_instance_class" {
   description = " The database instance type"
   type = string
   default = "db.t2.micro"
-}
+}*/
 
 variable "database_instance_identifier" {
   description = " The database instance identifier"
